@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://httpbin.org/get" method="get">
+      <p>
+        <label for="navn">Fist Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="elisabeth"
+          autocomplete="on"
+          require
+        />
+      </p>
+
+      <p></p>
+      <label for="name">Last name</label>
+      <input
+        type="lastname"
+        id="name"
+        name="name"
+        placeholder="Stiglic"
+        autocomplete="on"
+        require
+      />
+      <p></p>
+      <label for="email">email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        id="name"
+        placeholder="insert you email"
+        autocomplete="on"
+        require
+      />
+      <p>
+        <input
+          type="checkbox"
+          name="chekbox"
+          id="checkbox:"
+          value="checkbox"
+        /><label for="checkbox">Subscribe to the newsletter</label>
+      </p>
+      <p>
+        <input type="radio" name="kjøn" id="Female:" value="fmale" /><label
+          for="Female"
+          >Female</label
+        >
+      </p>
+
+      <p>
+        <input type="radio" name="kjøn" id="Male:" value="Male" /><label
+          for="Male"
+          >Male</label
+        >
+      </p>
+
+      <p>
+      <input type="submit" name="button" id="button" value="submit" />
+      <input type="reset" name="reset" id="reset" value="reset" />
+      </p>
+      <label for="picture">Choose a picture:</label>
+      <p>
+        <select name="picture" id="cars">
+          <option value="blomstereng">Blomster eng</option>
+          <option value="rob">Rob</option>
+          <option value="heather">Heather</option>
+          <option value="alan">Alan</option>
+        </select>
+      </p>
+      <label for="message">Message to the photographer:</label>
+
+      <br />
+      <textarea
+        id="message"
+        name="message"
+        rows="20"
+        cols="50"
+        placeholder="Type a message" 
+       
+        autocomplete="on"
+        required
+      > 
+      </textarea>
+      <p></p>
+      <button type="submit" style="background-color: blue">send button</button>
+    </form>
+  </body>
+</html>
