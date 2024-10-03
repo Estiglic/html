@@ -1,0 +1,39 @@
+header
+h1 {
+    color: rgb(231, 77, 211);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul
+a {
+    color: rgb(240, 14, 187);
+}
+body
+ { background-color: rgb(226, 233, 239);
+    
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+button {
+    color: rgb(69, 17, 224);
+    
+}
+
+form
+a {
+    color: blueviolet;
+    font-size: 15px;
+
+
+}
+p{
+    color: brown;
+}
+fieldset{
+    border-radius: 30px;
+    margin: 40px;
+    padding: 50px;
+    
+}
