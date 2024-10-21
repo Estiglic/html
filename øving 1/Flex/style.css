@@ -1,0 +1,73 @@
+.body {
+    font-size: 16px;
+}
+.navbar{
+ display: flex;
+ justify-content: space-between;
+ margin: 20px;
+
+}
+.logo {
+    height: 60px;
+}
+.nav-links { 
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.nav-links a {
+    text-decoration: none;
+}
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: beige;
+}
+
+.box1{
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    
+}
+
+.box2 {
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.box3{
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+ .bacground {
+
+ }
+
+ .buttons {
+    background-color: rgb(179, 220, 31);
+ }
