@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: hvite;
+    color: aliceblue;
+    margin: 20px;
+    margin-top: 100px;
+
+   
+   
+   }
+   .grid-item {
+    background-color: rgb(255, 127, 246);
+    
+   }
+   .grid-item1 {
+    grid-row: ;
+    grid-column: auto;
+    height: auto;
+    width: auto;
+   }
+   .img {
+    width: 50px;
+   }
+   .grid-item2 {
+
+   }
+   .flex-img {
+    display: flex;
+    justify-content: center;
+   }
